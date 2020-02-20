@@ -11,6 +11,7 @@ const serverRuntimeConfig = getServerRuntimeConfig(cliFlags);
 
 module.exports = {
   distDir: "../.next",
+  target: 'serveless',
   publicRuntimeConfig,
   serverRuntimeConfig
 };
