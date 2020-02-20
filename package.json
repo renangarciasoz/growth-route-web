@@ -3,11 +3,11 @@
   "version": "0.0.1",
   "private": false,
   "scripts": {
-    "build": "CONFIG=production next build src",
-    "start:dev": "NODE_ENV=development node src/server",
-    "start:stag": "NODE_ENV=staging CONFIG=staging node src/server",
-    "start:prod": "NODE_ENV=production node src/server",
-    "now-start": "NODE_ENV=production node src/server"
+    "build": "CONFIG=production next build",
+    "start:dev": "NODE_ENV=development node server",
+    "start:stag": "NODE_ENV=staging CONFIG=staging node server",
+    "start:prod": "NODE_ENV=production node server",
+    "now-start": "NODE_ENV=production node server"
   },
   "dependencies": {
     "@material-ui/core": "^4.9.3",

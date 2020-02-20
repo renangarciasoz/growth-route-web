@@ -1,7 +1,7 @@
 // server.js
 const next = require("next");
 
-const app = next({ dir: './src', dev: process.env.NODE_ENV !== "production" });
+const app = next({ dev: process.env.NODE_ENV !== "production" });
 
 const bootstrapServer = require("./bootstrap");
 const { default: getConfig } = require("next/config");

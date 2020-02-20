@@ -10,7 +10,6 @@ const publicRuntimeConfig = getPublicRuntimeConfig(cliFlags);
 const serverRuntimeConfig = getServerRuntimeConfig(cliFlags);
 
 module.exports = {
-  distDir: "../.next",
   publicRuntimeConfig,
   serverRuntimeConfig
 };
