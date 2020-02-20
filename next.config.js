@@ -10,6 +10,7 @@ const publicRuntimeConfig = getPublicRuntimeConfig(cliFlags);
 const serverRuntimeConfig = getServerRuntimeConfig(cliFlags);
 
 module.exports = {
+  target: "serveless",
   publicRuntimeConfig,
   serverRuntimeConfig
 };
